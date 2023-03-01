@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "/lib",
+    "declarationDir": "./lib",
+    // "paths": {
+    //   "@betalpha/business": ["src"],
+    //   "@betalpha/business/*": ["src/*", "*"]
+    // }
+  },
+  "include": [
+    "src"
+  ]
+}
